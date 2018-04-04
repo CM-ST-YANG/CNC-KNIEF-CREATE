@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="50099877-4f0c-4ba8-b382-beb7e056ebfa1" Category="Comment" Bounds="116.251666666667,728,50,25.24" Label="P2" />
+    <Node Id="MACH3" Category="Comment" Bounds="0,336,64.51,25.24" />
+    <Node Id="P10" Category="Comment" Bounds="116.251666666667,672,50,25.24" />
+    <Node Id="P11" Category="Comment" Bounds="116.251666666667,560,50,25.24">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="P15" Category="Comment" Bounds="116.251666666667,504,50,25.24" Label="GND" />
+    <Node Id="P3" Category="Comment" Bounds="116.251666666667,448,50,25.24">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="P4" Category="Comment" Bounds="116.251666666667,392,50,25.24">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="P5" Category="Comment" Bounds="116.251666666667,336,50,25.24">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="P6" Category="Comment" Bounds="116.251666666667,280,50,25.24" />
+    <Node Id="P9" Category="Comment" Bounds="116.251666666667,224,50,25.24">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="PC5V" Category="Comment" Bounds="115.99,168,50.5233333333333,25.24">
+      <Category Ref="Category6" />
+    </Node>
+    <Node Id="PCGND" Category="Comment" Bounds="109.656666666667,112,63.19,25.24">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="VGA" Category="Comment" Bounds="94.51,56.0000000000001,93.4833333333333,25.24" Label="VGA（白线）" />
+    <Node Id="X-驱动（白线）" Category="Comment" Bounds="249.531666666667,728,104.93,25.24" />
+    <Node Id="X-驱动（蓝线）" Category="Comment" Bounds="249.531666666667,448,104.93,25.24">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Z-驱动" Category="Comment" Bounds="249.78,280,104.63,25.24" Label="Z-驱动（白线）" />
+    <Node Id="Z-驱动（绿线）" Category="Comment" Bounds="249.681666666667,392,104.63,25.24">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="Z-驱动（蓝线）" Category="Comment" Bounds="249.681666666667,336,104.433333333333,25.24" Label="Y-驱动（蓝线）">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Z-驱动（黄线长）" Category="Comment" Bounds="243.681666666667,168,116.433333333333,25.24" Label="Y-驱动（黄线长）">
+      <Category Ref="Category6" />
+    </Node>
+    <Node Id="变频器线（拨开线头的绿线)" Category="Comment" Bounds="217.993333333333,112,168.006666666667,25.24">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="对刀块" Category="Comment" Bounds="249.996666666667,616,104,25.24" Label="对刀块（蓝线）">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="急停开关(黑线)" Category="Comment" Bounds="251.99,672,100.013333333333,25.24" />
+    <Node Id="急停开关（黑线）" Category="Comment" Bounds="243.996666666667,560,116,25.24" Label="急停开关（黑线）" />
+    <Node Id="机壳" Category="Comment" Bounds="255.996666666667,504,92,25.24" Label="机壳（灰线）" />
+    <Node Id="红线" Category="Comment" Bounds="249.78,224,104.63,25.24" Label="Z-驱动（红线）">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="蓝色USB" Category="Comment" Bounds="107.543333333333,0,67.4166666666667,25.24" />
+  </Nodes>
+  <Links>
+    <Link Source="50099877-4f0c-4ba8-b382-beb7e056ebfa1" Target="X-驱动（白线）" Bounds="166.251663208008,740.619995117188,74.2799987792969,0" />
+    <Link Source="MACH3" Target="50099877-4f0c-4ba8-b382-beb7e056ebfa1" Bounds="34.7582321166992,361.239990234375,87.627685546875,360.372253417969" />
+    <Link Source="MACH3" Target="P10" Bounds="36.3488616943359,361.239990234375,98.0318603515625,302.199157714844" />
+    <Link Source="MACH3" Target="P11" Bounds="37.6934700012207,361.239990234375,88.9476737976074,191.509094238281" />
+    <Link Source="MACH3" Target="P15" Bounds="40.4427261352539,361.239990234375,87.7227401733398,135.209838867188" />
+    <Link Source="MACH3" Target="P3" Bounds="44.5365905761719,361.239990234375,78.1565933227539,80.3101501464844" />
+    <Link Source="MACH3" Target="P4" Bounds="56.8181762695313,361.239990234375,52.4087677001953,26.9264526367188" />
+    <Link Source="MACH3" Target="P5" Bounds="64.5100021362305,348.619995117188,42.7416610717773,0" />
+    <Link Source="MACH3" Target="P6" Bounds="56.8181762695313,309.073577880859,52.4087677001953,26.9264221191406" />
+    <Link Source="MACH3" Target="P9" Bounds="44.5365905761719,255.689849853516,78.1565933227539,80.3101501464844" />
+    <Link Source="MACH3" Target="PC5V" Bounds="40.4427261352539,200.790161132813,87.7227401733398,135.209838867188" />
+    <Link Source="MACH3" Target="PCGND" Bounds="37.6578025817871,144.444473266602,88.751163482666,191.555526733398" />
+    <Link Source="MACH3" Target="VGA" Bounds="35.5152053833008,86.9081039428711,83.1803970336914,249.091896057129" />
+    <Link Source="MACH3" Target="蓝色USB" Bounds="34.5714111328125,30.550687789917,82.1473388671875,305.449312210083" />
+    <Link Source="P10" Target="急停开关(黑线)" Bounds="166.251663208008,684.619995117188,76.7383422851563,0" />
+    <Link Source="P11" Target="对刀块" Bounds="166.251663208008,581.329467773438,91.0209503173828,31.7096557617188" />
+    <Link Source="P15" Target="急停开关（黑线）" Bounds="166.251663208008,525.329467773438,91.0209503173828,31.7096557617188" />
+    <Link Source="P15" Target="机壳" Bounds="166.251663208008,516.619995117188,80.7450103759766,0" />
+    <Link Source="P3" Target="X-驱动（蓝线）" Bounds="166.251663208008,460.619995117188,74.2799987792969,0" />
+    <Link Source="P4" Target="Z-驱动（绿线）" Bounds="166.251663208008,404.619995117188,74.4300079345703,0" />
+    <Link Source="P5" Target="Z-驱动（蓝线）" Bounds="166.251663208008,348.619995877056,74.430003458659,2.26228002020434E-06" />
+    <Link Source="P6" Target="Z-驱动" Bounds="166.251663208008,292.619995876127,74.5283367919926,2.26249909474063E-06" />
+    <Link Source="P9" Target="红线" Bounds="166.251663208008,236.619995876127,74.5283367919926,2.26249906631892E-06" />
+    <Link Source="PC5V" Target="Z-驱动（黄线长）" Bounds="166.513333689372,180.620001149206,68.1683329772952,1.16547653306043E-06" />
+    <Link Source="PCGND" Target="变频器线（拨开线头的绿线)" Bounds="172.846664428711,124.620002746582,36.1466674804688,0" />
+  </Links>
+  <Categories>
+    <Category Id="Category1" Label="类别 1" Background="#FFE51400" IsTag="True" />
+    <Category Id="Category2" Label="类别 2" Background="#FF339933" IsTag="True" />
+    <Category Id="Category4" Label="类别 4" Background="#FF1BA1E2" IsTag="True" />
+    <Category Id="Category6" Label="类别 6" Background="#FFA1260D" IsTag="True" />
+    <Category Id="Comment" Label="注释" Description="表示在图表中用户定义的注释" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="注释" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="背景" Description="背景色" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="类别 6" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category6')" />
+      <Setter Property="Background" Value="#FFA1260D" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类别 1" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFE51400" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类别 2" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="#FF339933" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类别 4" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category4')" />
+      <Setter Property="Background" Value="#FF1BA1E2" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>
